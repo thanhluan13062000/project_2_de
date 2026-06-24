@@ -18,3 +18,4 @@ venv/
 
 logs/
 .kilo
+.pytest_cache
