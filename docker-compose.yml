@@ -23,7 +23,7 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://de_user:de_password@postgres/de_test
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
-      AIRFLOW__CORE__FERNET_KEY: "12345678901234567890123456789012"
+      AIRFLOW__CORE__FERNET_KEY: "fj9gq0rwBecdW0OEwoe3u8gI65KPyCWhos6WAf38BY4="
       PYTHONWARNINGS: "ignore"
       PYTHONPATH: /opt/airflow/src
 
@@ -39,7 +39,7 @@ services:
 
     command: >
       bash -c "
-      airflow db migrate &&
+      airflow db init &&
       airflow users create --username admin --password admin --firstname Air --lastname Flow --role Admin --email admin@example.com || true &&
       pip install -r /opt/airflow/requirements.txt &&
       airflow scheduler & exec airflow webserver
