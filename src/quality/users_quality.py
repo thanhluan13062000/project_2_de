@@ -16,7 +16,7 @@ class UsersQuality:
         return valid_rows, invalid_rows
 
     def validate_silver(self, silver_users):
-        valid = []
+        valid = [] 
         invalid = []
 
         for u in silver_users:
