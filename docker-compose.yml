@@ -44,5 +44,23 @@ services:
       pip install -r /opt/airflow/requirements.txt &&
       airflow scheduler & exec airflow webserver
       "
+
+  etl_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: de_etl
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+    environment:
+      PYTHONPATH: /app/src
+    restart: unless-stopped
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./logs:/app/logs
+
 volumes:
   postgres_data:
