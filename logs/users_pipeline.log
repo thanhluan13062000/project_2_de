@@ -1,0 +1,56 @@
+2026-06-24 12:03:21,360 | INFO | users_pipeline | Starting pipeline
+2026-06-24 12:03:24,053 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 12:03:24,110 | INFO | users_pipeline | Loaded bronze
+2026-06-24 12:03:24,121 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 12:03:24,159 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 12:03:24,167 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 12:03:24,167 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 15:35:56,577 | INFO | users_pipeline | Starting pipeline
+2026-06-24 15:35:58,682 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 15:35:58,735 | INFO | users_pipeline | Loaded bronze
+2026-06-24 15:35:58,746 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 15:35:58,780 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 15:35:58,788 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 15:35:58,788 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 10:09:42,085 | INFO | users_pipeline | Starting pipeline - batch_id=20260624_100942
+2026-06-24 10:09:43,059 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 10:09:43,095 | INFO | users_pipeline | Loaded bronze
+2026-06-24 10:09:43,112 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 10:09:43,131 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 10:09:43,138 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 10:09:43,138 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 17:10:59,284 | INFO | users_pipeline | Starting pipeline - batch_id=20260624_171059
+2026-06-24 17:11:04,001 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 17:11:04,037 | INFO | users_pipeline | Loaded bronze
+2026-06-24 17:11:04,048 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 17:11:04,066 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 17:11:04,071 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 17:11:04,071 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 17:11:27,899 | INFO | users_pipeline | Starting pipeline - batch_id=20260624_171127
+2026-06-24 17:11:28,898 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 17:11:28,947 | INFO | users_pipeline | Loaded bronze
+2026-06-24 17:11:28,959 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 17:11:28,980 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 17:11:28,985 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 17:11:28,986 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 17:13:55,544 | INFO | users_pipeline | Starting pipeline - batch_id=20260624_171355
+2026-06-24 17:13:56,688 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 17:13:56,725 | INFO | users_pipeline | Loaded bronze
+2026-06-24 17:13:56,740 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 17:13:56,762 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 17:13:56,769 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 17:13:56,769 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 17:17:51,836 | INFO | users_pipeline | Starting pipeline - batch_id=20260624_171751
+2026-06-24 17:17:52,789 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 17:17:52,821 | INFO | users_pipeline | Loaded bronze
+2026-06-24 17:17:52,832 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 17:17:52,850 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 17:17:52,855 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 17:17:52,855 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY
+2026-06-24 17:28:18,947 | INFO | users_pipeline | Starting pipeline - batch_id=20260624_172818
+2026-06-24 17:28:19,946 | INFO | users_pipeline | Extracted 208 users
+2026-06-24 17:28:19,985 | INFO | users_pipeline | Loaded bronze
+2026-06-24 17:28:20,002 | INFO | users_pipeline | Transformed to 208 silver users
+2026-06-24 17:28:20,036 | INFO | users_pipeline | Loaded silver layer
+2026-06-24 17:28:20,042 | INFO | users_pipeline | Loaded gold layer
+2026-06-24 17:28:20,042 | INFO | users_pipeline | PIPELINE DONE SUCCESSFULLY

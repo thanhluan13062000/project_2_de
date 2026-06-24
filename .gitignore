@@ -1,0 +1,17 @@
+# 1. Bảo mật (QUAN TRỌNG NHẤT)
+.env
+
+# 2. File rác hệ thống của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 3. Môi trường ảo (Nếu bạn tạo venv nằm trong thư mục dự án)
+venv/
+.venv/
+
+# 4. File cấu hình rác của các IDE/Trình soạn thảo code
+.vscode/
+.idea/
+.DS_Store
