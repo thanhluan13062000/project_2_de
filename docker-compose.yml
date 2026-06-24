@@ -56,7 +56,8 @@ services:
       - postgres
     environment:
       PYTHONPATH: /app/src
-    restart: unless-stopped
+    restart: "no"
+    command: ["tail", "-f", "/dev/null"]
     volumes:
       - ./src:/app/src
       - ./data:/app/data
